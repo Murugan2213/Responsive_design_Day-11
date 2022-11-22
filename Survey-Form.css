@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --primary-ff : 'Poppins', sans-serif;
+    --primary-ff : 'Open Sans', sans-serif;
+    --primary-fw : 400;
+    --primary-bg : #F5F6F6;
+    --secondary-color: #FFF;
+    --orange: #FF5307;
+    --blue: #3783EF;
+    --primary-fs : 14px;
+}
+
+
+body {
+    font-family: var(--primary-ff);
+    font-size: var(--primary-fs);
+}
+
+.star {
+    width: 1.5rem;
+}
+
+.border {
+    border: solid 2rem black;
+}
+
+.comment-box {
+    height: 6rem;
+}
